@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Favoritos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list *ngIf="favorites.length > 0; else empty">
+    <ion-item *ngFor="let p of favorites" (click)="viewDetails(p.name)">
+      {{ p.name | titlecase }}
+    </ion-item>
+  </ion-list>
+
+  <ng-template #empty>
+    <p style="text-align:center;">Nenhum favorito salvo.</p>
+  </ng-template>
+</ion-content>

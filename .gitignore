@@ -1,0 +1,79 @@
+# -----------------------------------
+# ⚙️ System & Temp Files
+# -----------------------------------
+.DS_Store
+Thumbs.db
+$RECYCLE.BIN/
+*~
+*.sw[mnpcod]
+.tmp
+*.tmp
+*.tmp.*
+log.txt
+*.log
+connect.lock
+
+# -----------------------------------
+# 🧪 Test & Coverage
+# -----------------------------------
+/coverage
+/testem.log
+/libpeerconnection.log
+
+# -----------------------------------
+# 📦 Node & Package Manager
+# -----------------------------------
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# -----------------------------------
+# 📱 Ionic & Angular
+# -----------------------------------
+/.ionic/
+/.angular/
+/.angular/cache
+/.sourcemaps
+/.versions
+/www
+/platforms
+/plugins
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# -----------------------------------
+# 🧠 NX (caso use)
+/.nx
+/.nx/cache
+
+# -----------------------------------
+# 🛠️ IDEs
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+*.launch
+
+# Cloud9 & Sublime
+.c9/
+*.sublime-project
+*.sublime-workspace
+
+# -----------------------------------
+# 🧵 Misc
+.history/*
+.sass-cache/
+/typings
