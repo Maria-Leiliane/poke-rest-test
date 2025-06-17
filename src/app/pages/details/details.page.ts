@@ -1,11 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { PokeapiService } from '../../services/pokeapi.service';
+import { CommonModule } from '@angular/common';
+import { IonicModule } from '@ionic/angular';
 
 @Component({
   selector: 'app-details',
   templateUrl: './details.page.html',
   styleUrls: ['./details.page.scss'],
+  standalone: true,
+  imports: [CommonModule, IonicModule],
 })
 export class DetailsPage implements OnInit {
   pokemon: any;
